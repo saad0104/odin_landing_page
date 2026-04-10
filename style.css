@@ -1,5 +1,7 @@
 body {
-  font-family: Roboto;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 0;
 }
 .section {
@@ -11,12 +13,12 @@ body {
 
 .header-wrapper {
   display: flex;
-  /* justify-content: space-between; */
   flex-direction: column;
   align-items: center;
   background-color: #1f2937;
   color: white;
-  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 80px;
 }
 
 .header {
@@ -41,7 +43,7 @@ body {
 }
 
 .header-logo {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 900;
 }
 
@@ -66,7 +68,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 400px;
+  width: 450px;
   height: 225px;
   background-color: #6d747d;
 }
@@ -89,3 +91,129 @@ body {
 }
 
 /* Header section ends */
+
+/* Info section starts */
+.info-title {
+  font-size: 45px;
+  padding-bottom: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.info-image {
+  height: 150px;
+  width: 150px;
+  border: 4px solid blue;
+  /* padding: 20px;  */
+  border-radius: 10px;
+}
+
+.info-text {
+  padding-top: 10px;
+  color: gray;
+  text-align: center;
+  width: 150px;
+}
+
+.info-together {
+  display: flex;
+  gap: 50px;
+}
+
+.random-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+/* Info section end */
+
+/* qoute section starts */
+.qoute-text {
+  width: 800px;
+  font-size: 35px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.qoute-author {
+  text-align: right;
+  width: 800px;
+  font-weight: bold;
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+.qoute-wrapper {
+  background-color: #e5e7eb;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+/* qoute section ends */
+
+/* call to action section starts */
+
+.cta-title {
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+}
+
+.cta-subtext {
+  font-size: 20px;
+  color: white;
+}
+
+.cta-signup {
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: blue;
+  color: white;
+  height: 35px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cta-wrapper {
+  width: 1000px;
+  height: 200px;
+  background-color: blue;
+  border-radius: 10px;
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* call to action section ends */
+
+/* footer section starts */
+
+.footer {
+  height: 80px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+
+/* footer section ends */
